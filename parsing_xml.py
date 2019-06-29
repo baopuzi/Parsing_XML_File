@@ -24,10 +24,7 @@ def get_desktop():
     return winreg.QueryValueEx(key, "Desktop")[0]
     # get configuration file
 
-
-
-
-
+# read xml file
 def traversal_dir_xml(path):
     config_name = 'conf.ini'
     if getattr(sys, 'frozen', False):
